@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Shared Test Module Example"
+
 include ':app'
+include ':library'
+include ':library-shared-test'
